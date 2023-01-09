@@ -1,3 +1,28 @@
+*{
+  background-color: rgb(48, 44, 44);
+}
+.container{
+  display: flex;
+}
+.rightBox{
+  margin-left: 100px;
+  border: 1px solid whitesmoke;
+  width: 600px;
+  height: auto;
+  margin: center;
+}
+
+.navbar{
+  width: 100vw;
+  height: 50px;
+  border: 1px solid rgb(143, 112, 112);
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap:20px;
+  background-color:rgb(133, 66, 36)
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
